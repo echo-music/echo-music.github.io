@@ -5,7 +5,7 @@ baseurl:
 #url: https://echo-music.github.io/
 date_format: "ordinal"
 title: 刘方亭.blog
-subtitle: "学无止境--------"
+subtitle: "发粪涂墙--------"
 description: "刘方亭的个人博客"
 keywords: echo_music, Fangting Liu,  echo-music ,刘方亭的个人博客
 encoding: "utf-8"
@@ -44,7 +44,7 @@ navs:
 
   -
     href: /about/
-    label: 关于
+    label: 关于作者
 
 # ---------------- #
 #       RSS        #

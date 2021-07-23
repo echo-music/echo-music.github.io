@@ -129,7 +129,7 @@
 
 <h2 id="key问题">key问题</h2>
 <p>查看mac上是否已经存在key</p>
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cd</span> /Users/baxi/.ssh
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cd</span> /Users/liufangting/.ssh
 </code></pre></div></div>
 <p>如果没有，即生成新的key</p>
 <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>ssh-keygen <span class="nt">-t</span> rsa
@@ -149,12 +149,12 @@
 <p>创建一个版本库非常简单，首先，选择一个合适的地方，创建一个空目录：</p>
 <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nv">$ </span><span class="nb">mkdir </span>my_git
  <span class="nv">$ </span><span class="nb">pwd</span>
- <span class="nv">$ </span>/Users/baxi/my_git
+ <span class="nv">$ </span>/Users/liufangting/my_git
 </code></pre></div></div>
 
 <p>第二步，通过git init命令把这个目录变成Git可以管理的仓库：</p>
 <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nv">$ </span>git init
-Initialized empty Git repository <span class="k">in</span> /Users/baxi/my_git/.git/
+Initialized empty Git repository <span class="k">in</span> /Users/liufangting/my_git/.git/
 </code></pre></div></div>
 <p>一个空的仓库（empty Git repository）就建好了，没事不要去修改隐藏目录.git的文件，这个目录是Git用来跟踪管理版本库的，改乱了，就把Git仓库给破坏了。</p>
 
@@ -164,7 +164,7 @@ Initialized empty Git repository <span class="k">in</span> /Users/baxi/my_git/.g
 <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Git is a version control system.
 Git is free software.
 </code></pre></div></div>
-<p>文件一定要存放在/Users/baxi/my_git目录或者其子目录下，要不然git会找不到</p>
+<p>文件一定要存放在/Users/liufangting/my_git目录或者其子目录下，要不然git会找不到</p>
 
 <p>2、用命令git add告诉Git,把文件添加到仓库</p>
 <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git add test.txt

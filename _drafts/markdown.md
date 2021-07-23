@@ -18,14 +18,14 @@ mathjax: true
 ### 超链接
 
 ```
-[靠谱-ing](https://baxibaba.github.io/)
+[靠谱-ing](https://echo-music.github.io/)
 
-<https://baxibaba.github.io/>
+<https://echo-music.github.io/>
 ```
 
-[靠谱-ing](https://baxibaba.github.io/)  
+[靠谱-ing](https://echo-music.github.io/)  
 
-<https://baxibaba.github.io/>
+<https://echo-music.github.io/>
 
 ### 列表
 

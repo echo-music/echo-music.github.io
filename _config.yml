@@ -5,7 +5,7 @@ baseurl:
 #url: https://echo-music.github.io/
 date_format: "ordinal"
 title: 刘方亭.blog
-subtitle: "发粪💩涂墙💪🇨🇳--------"
+subtitle: "发粪💩涂墙💪--------"
 description: "刘方亭的个人博客"
 keywords: echo_music, Fangting Liu,  echo-music ,刘方亭的个人博客
 encoding: "utf-8"
@@ -19,7 +19,7 @@ author: Fangting Liu
 organization: 
 organization_url: 
 github_username: echo-music
-location: Beijing, China
+location: Beijing, China 🇨🇳
 email: php_fangting@126.com
 
 # ---------------- #

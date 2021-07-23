@@ -2,17 +2,17 @@
 layout: page
 title: About
 description: 程序人生
-keywords: Yuewu Liu, baxibaba, able, baxi
+keywords: Fangting Liu, echo-music, able, 刘方亭
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是baxibaba，目前在研究、分享开源技术。
+我是刘方亭，目前在研究微服务、Docker,K8s，分享开源技术。
 
 坚信熟能生巧，技术改变人生。
 
-业余羽毛球、快走、游泳爱好者。
+业余羽毛球、快走、K歌，游泳爱好者。
 
 ## 联系
 

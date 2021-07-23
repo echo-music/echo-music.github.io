@@ -7,10 +7,10 @@ date_format: "ordinal"
 title: 刘方亭.blog
 subtitle: "学无止境--------"
 description: "刘方亭的个人博客"
-keywords: BaXi, Fangting Liu, liufangtinglogin, cwb, echomusic ,echo-music ,刘方亭
+keywords: BaXi, Fangting Liu, liufangtinglogin, cwb, echo-music ,刘方亭
 encoding: "utf-8"
 side_bar_repo_limit: 5
-repository: echo-music/echomusic.github.io
+repository: echo-music/echo-music.github.io
 
 # ---------------- #
 #      Author      #
@@ -77,7 +77,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: echo-music/echomusic.github.io
+repository: echo-music/echo-music.github.io
 
 # ---------------- #
 #      Comments    #
@@ -92,14 +92,14 @@ disqus:
 # https://imsun.net/posts/gitment-introduction/
 gitment:
     owner: echo-music
-    repo: echomusic.github.io
+    repo: echo-music.github.io
     oauth:
         client_id: f1b37e802c634863604a
         client_secret: 3185e464e62d9eab0a432c06daebfa3a6af7e874
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: echo-music
-    repo: echomusic.github.io
+    repo: echo-music.github.io
     clientID: f1b37e802c634863604a
     clientSecret: 3185e464e62d9eab0a432c06daebfa3a6af7e874
 # 在使用其它评论组件时可点击显示 Disqus

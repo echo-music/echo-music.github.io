@@ -1,67 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de06bc85-c4d9-45e8-9714-00ff1564d4c2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_data/social.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/social.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_drafts/git.md" beforeDir="false" afterPath="$PROJECT_DIR$/_drafts/git.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_drafts/linux.md" beforeDir="false" afterPath="$PROJECT_DIR$/_drafts/linux.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_drafts/markdown.md" beforeDir="false" afterPath="$PROJECT_DIR$/_drafts/markdown.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/comments.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/comments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/sidebar-qrcode.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/sidebar-qrcode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2020/05/20/mac-jekyll-github-blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2020/05/20/mac-jekyll-github-blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/_site/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/js/jquery.toc.js" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/js/jquery.toc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.toc.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery.toc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/autosize/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autosize/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/date-fns/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/date-fns/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/debug/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/define-properties/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/define-properties/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/es-abstract/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/es-to-primitive/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/es-to-primitive/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/es6-promise/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/es6-promise/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/follow-redirects/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/for-each/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/for-each/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/function-bind/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gitalk/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/gitalk/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/github-markdown-css/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/github-markdown-css/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gitment/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/gitment/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/has-symbols/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/has-symbols/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/has/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/has/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/immutability-helper/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/immutability-helper/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/invariant/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/invariant/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/is-callable/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-callable/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/is-date-object/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-date-object/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/is-regex/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-regex/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/is-symbol/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-symbol/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/js-tokens/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/js-tokens/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/loose-envify/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mobx/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mobx/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ms/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/node-polyglot/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-polyglot/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/object-assign/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/object-assign/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/object-inspect/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/object-inspect/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/object-keys/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/object-keys/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/object.assign/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/object.assign/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/preact-compat/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/preact-compat/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/preact-render-to-string/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/preact-render-to-string/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/preact-transition-group/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/preact-transition-group/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/preact/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/preact/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pretty-format/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pretty-format/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prop-types/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-flip-move/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-flip-move/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-is/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-is/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/standalone-react-addons-pure-render-mixin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/standalone-react-addons-pure-render-mixin/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/string.prototype.trim/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string.prototype.trim/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/string.prototype.trimend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string.prototype.trimend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/string.prototype.trimleft/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string.prototype.trimleft/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/string.prototype.trimright/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string.prototype.trimright/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/string.prototype.trimstart/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string.prototype.trimstart/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/warning/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/warning/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/404.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/404.md" afterDir="false" />
-    </list>
+    <list default="true" id="de06bc85-c4d9-45e8-9714-00ff1564d4c2" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,48 +10,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="2018-02-26-mac-git-sourcetree.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-02-26-mac-git-sourcetree.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="167">
-                <caret line="48" column="10" lean-forward="true" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="categories.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/categories.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-181" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/node_modules/warning/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>echomusic</find>
-      <find>baxi</find>
       <find>baxibabablog</find>
       <find>baxibaba</find>
+      <find>baxi</find>
+      <find>linux</find>
     </findStrings>
     <replaceStrings>
-      <replace>liufangting</replace>
       <replace>echomusicblog</replace>
       <replace>echo-music</replace>
+      <replace>liufangting</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -454,23 +366,22 @@
       <option name="presentableId" value="Default" />
       <updated>1627006238973</updated>
       <workItem from="1627006240656" duration="4097000" />
-      <workItem from="1627016923546" duration="263000" />
+      <workItem from="1627016923546" duration="627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4360000" />
+    <option name="totallyTimeSpent" value="4724000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1337" height="793" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.09777778" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.04888889" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27081713" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -723,13 +634,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-02-26-mac-git-sourcetree.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="167">
-            <caret line="48" column="10" lean-forward="true" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/node_modules/warning/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-782">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -738,10 +646,23 @@
         <state relative-caret-position="-181" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/warning/package.json">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-02-26-mac-git-sourcetree.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="167">
+            <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/about/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="24" />
+        <state relative-caret-position="-1675">
+          <caret line="131" column="53" selection-start-line="131" selection-start-column="46" selection-end-line="131" selection-end-column="53" />
         </state>
       </provider>
     </entry>

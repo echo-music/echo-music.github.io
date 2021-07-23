@@ -4,7 +4,7 @@ title: About
 description: 程序人生
 keywords: Fangting Liu, echo-music,二川, 刘方亭的博客
 comments: true
-menu: 关于
+menu: 关于作者
 permalink: /about/
 ---
 

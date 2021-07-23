@@ -87,9 +87,9 @@ Configuration file: /Users/baxi/baxibabablog/_config.yml
 ![WX20200525-173904.png](https://i.loli.net/2020/05/25/9wAstdqeESUZQRP.png)
 
 ## 6、部署到github
-&emsp;&emsp;按照自己的github账号创建一个仓库,固定格式username.github.io，这个代码仓库就是博客源码存放地，博客公网链接就是：https://baxibaba.github.io
+&emsp;&emsp;按照自己的github账号创建一个仓库,固定格式username.github.io，这个代码仓库就是博客源码存放地，博客公网链接就是：https://echo-music.github.io
 ``` python
-https://github.com/baxibaba/baxibaba.github.io.git
+https://github.com/echo-music/echo-music.github.io.git
 ```
 将本地内容和github上的仓库关联
 ``` python
@@ -97,18 +97,18 @@ https://github.com/baxibaba/baxibaba.github.io.git
 2 $ sudo git init
 3 $ sudo git add .
 4 $ sudo git commit -m "first commit"
-5 $ sudo git remote add origin https://github.com/baxibaba/baxibaba.github.io.git
+5 $ sudo git remote add origin https://github.com/echo-music/echo-music.github.io.git
 6 $ sudo git push -u origin master
 ```
 &emsp;&emsp;这里注意替换为你自己的地址，在执行git push的时候，需要输入github的账号和密码。
-完成后在浏览器上输入: baxibaba.github.io，就可以看见博客了。
+完成后在浏览器上输入: echo-music.github.io，就可以看见博客了。
 
 ## 7、使用主题
 &emsp;&emsp;使用jekyll new出来的博客实在是太原始，太简陋，完全没有“高大上”的感觉，我们需要“高颜值”的主题（对于 jekyll ，主题就是一套完整的博客框架源码），[jekyllthemes](http://jekyllthemes.org/)提供了很多的主题，比如我选择的主题就是基于[yummy-theme](http://jekyllthemes.org/themes/yummy-theme/)扩展的。
 
 &emsp;&emsp;把自己的github 空仓库git clone 到本地，拿到的框架源码拷贝到空仓库目录下
 ``` python
-$ git clone https://github.com/baxibaba/baxibaba.github.io.git
+$ git clone https://github.com/echo-music/echo-music.github.io.git
 ```
 &emsp;&emsp;刚拿到的主题，内容还是别人的，我们需要了解一下博客的[基本目录结构](https://www.jekyll.com.cn/)，然后加以修改成自己的博客框架。
 
@@ -143,7 +143,7 @@ $ git clone https://github.com/baxibaba/baxibaba.github.io.git
 运行方法和步骤5是一样的，只是我在本地运行获取到的主题框架时遇到了报错
 
 ``` python
-$ cd /Users/baxi/my_git/baxibaba.github.io
+$ cd /Users/baxi/my_git/echo-music.github.io
 $ sudo jekyll serve         
 Traceback (most recent call last):
         10: from /usr/local/bin/jekyll:23:in `<main>'
@@ -165,16 +165,16 @@ Traceback (most recent call last):
 
 ``` sh
 $ bundle exec jekyll serve --watch
-Configuration file: /Users/baxi/my_git/baxibaba.github.io/_config.yml
+Configuration file: /Users/baxi/my_git/echo-music.github.io/_config.yml
        Deprecation: The 'gems' configuration option has been renamed to 'plugins'. Please update your config file accordingly.
-            Source: /Users/baxi/my_git/baxibaba.github.io
-       Destination: /Users/baxi/my_git/baxibaba.github.io/_site
+            Source: /Users/baxi/my_git/echo-music.github.io
+       Destination: /Users/baxi/my_git/echo-music.github.io/_site
  Incremental build: disabled. Enable with --incremental
       Generating...
    GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
     Liquid Warning: Liquid syntax error (line 2): Expected dotdot but found pipe in "{{(site.github.public_repositories | sort: 'stargazers_count') | reverse }}" in pages/open-source.md
                     done in 3.437 seconds.
- Auto-regeneration: enabled for '/Users/baxi/my_git/baxibaba.github.io'
+ Auto-regeneration: enabled for '/Users/baxi/my_git/echo-music.github.io'
     Server address: http://127.0.0.1:4000
   Server running... press ctrl-c to stop.
 ```
@@ -214,7 +214,7 @@ keywords: keyword1, keyword2
 ## 11、绑定域名
 在终端ping自己的域名
 ```
-$ ping baxibaba.github.io
+$ ping echo-music.github.io
 ```
 得到公网IP地址：
 ```
@@ -229,7 +229,7 @@ A           www         默认              151.101.229.147
 ```
 记录值填写刚才获得的ip地址，在博客根目录添加CNAME文件,并将你的域名写入:
 ```
-echo "www.baxibaba.com" > CNAME
+echo "www.echo-music.com" > CNAME
 ```
 
 将CNAME提交，待域名解析完成，就可以了（大概1分钟解析时间）。

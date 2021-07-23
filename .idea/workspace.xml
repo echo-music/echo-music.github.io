@@ -11,12 +11,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2018-02-26-mac-git-sourcetree.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-02-26-mac-git-sourcetree.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-26-mac-git-sourcetree.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="990">
                 <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/about.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="54">
+                <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
               </first_editor>
               <second_editor />
             </state>
@@ -49,6 +61,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/_posts/2018-02-26-mac-git-sourcetree.md" />
         <option value="$PROJECT_DIR$/_posts/2020-05-20-mac-jekyll-github-blog.md" />
+        <option value="$PROJECT_DIR$/pages/about.md" />
       </list>
     </option>
   </component>
@@ -359,17 +372,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627006238973</updated>
-      <workItem from="1627006240656" duration="3636000" />
+      <workItem from="1627006240656" duration="4097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3636000" />
+    <option name="totallyTimeSpent" value="4097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1337" height="793" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26614785" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26614785" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -378,7 +391,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.42222223" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.42222223" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -592,6 +605,16 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="990">
             <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/about.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="54">
+            <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>

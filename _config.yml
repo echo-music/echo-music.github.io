@@ -2,12 +2,12 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-#url: https://baxibaba.github.io/
+#url: https://echo-music.github.io/
 date_format: "ordinal"
 title: 刘方亭.blog
 subtitle: "学无止境--------"
 description: "刘方亭的个人博客"
-keywords: BaXi, Fangting Liu, liufangtinglogin, cwb, echo-music ,刘方亭
+keywords: echo_music, Fangting Liu,  echo-music ,刘方亭的个人博客
 encoding: "utf-8"
 side_bar_repo_limit: 5
 repository: echo-music/echo-music.github.io

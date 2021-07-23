@@ -13,7 +13,7 @@ keywords: Mac, git, Sourcetree
 ## key问题
 查看mac上是否已经存在key
 ``` sh
-$ cd /Users/baxi/.ssh
+$ cd /Users/liufangting/.ssh
 ```
 如果没有，即生成新的key
 ``` sh
@@ -36,13 +36,13 @@ $ git config --global user.email liu.yw@wonhigh.cn
 ``` sh
  $ mkdir my_git
  $ pwd
- $ /Users/baxi/my_git
+ $ /Users/liufangting/my_git
  ```
 
  第二步，通过git init命令把这个目录变成Git可以管理的仓库：
  ``` sh
  $ git init
-Initialized empty Git repository in /Users/baxi/my_git/.git/
+Initialized empty Git repository in /Users/liufangting/my_git/.git/
 ```
 一个空的仓库（empty Git repository）就建好了，没事不要去修改隐藏目录.git的文件，这个目录是Git用来跟踪管理版本库的，改乱了，就把Git仓库给破坏了。
 
@@ -53,7 +53,7 @@ Initialized empty Git repository in /Users/baxi/my_git/.git/
 Git is a version control system.
 Git is free software.
 ```
-文件一定要存放在/Users/baxi/my_git目录或者其子目录下，要不然git会找不到
+文件一定要存放在/Users/liufangting/my_git目录或者其子目录下，要不然git会找不到
 
 2、用命令git add告诉Git,把文件添加到仓库
 ``` sh

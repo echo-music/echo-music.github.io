@@ -57,29 +57,29 @@ $ sudo gem install jekyll
 ```
 创建博客(如果没有找到jekyll命令，重启下终端)
 ``` python
-$ sudo jekyll new baxibabablog
+$ sudo jekyll new echomusicblog
 ```
 安装过程会显示一堆安装内容，关注最后一行
 ``` python
-New jekyll site installed in /Users/baxi/baxibabablog.
+New jekyll site installed in /Users/liufangting/echomusicblog.
 ```
 
 ## 5、本地启动博客
 进入到安装目录执行命令
 ```python
-$ cd /Users/baxi/baxibabablog
+$ cd /Users/liufangting/echomusicblog
 $ sudo jekyll serve
 ```
 输出
 ``` python
 Password:
-Configuration file: /Users/baxi/baxibabablog/_config.yml
-            Source: /Users/baxi/baxibabablog
-       Destination: /Users/baxi/baxibabablog/_site
+Configuration file: /Users/liufangting/echomusicblog/_config.yml
+            Source: /Users/liufangting/echomusicblog
+       Destination: /Users/liufangting/echomusicblog/_site
  Incremental build: disabled. Enable with --incremental
       Generating...
                     done in 0.415 seconds.
- Auto-regeneration: enabled for '/Users/baxi/baxibabablog'
+ Auto-regeneration: enabled for '/Users/liufangting/echomusicblog'
     Server address: http://127.0.0.1:4000/
   Server running... press ctrl-c to stop.
 ```
@@ -93,7 +93,7 @@ https://github.com/echo-music/echo-music.github.io.git
 ```
 将本地内容和github上的仓库关联
 ``` python
-1 $ cd /Users/baxi/baxibabablog
+1 $ cd /Users/liufangting/echomusicblog
 2 $ sudo git init
 3 $ sudo git add .
 4 $ sudo git commit -m "first commit"
@@ -143,7 +143,7 @@ $ git clone https://github.com/echo-music/echo-music.github.io.git
 运行方法和步骤5是一样的，只是我在本地运行获取到的主题框架时遇到了报错
 
 ``` python
-$ cd /Users/baxi/my_git/echo-music.github.io
+$ cd /Users/liufangting/my_git/echo-music.github.io
 $ sudo jekyll serve         
 Traceback (most recent call last):
         10: from /usr/local/bin/jekyll:23:in `<main>'
@@ -165,16 +165,16 @@ Traceback (most recent call last):
 
 ``` sh
 $ bundle exec jekyll serve --watch
-Configuration file: /Users/baxi/my_git/echo-music.github.io/_config.yml
+Configuration file: /Users/liufangting/my_git/echo-music.github.io/_config.yml
        Deprecation: The 'gems' configuration option has been renamed to 'plugins'. Please update your config file accordingly.
-            Source: /Users/baxi/my_git/echo-music.github.io
-       Destination: /Users/baxi/my_git/echo-music.github.io/_site
+            Source: /Users/liufangting/my_git/echo-music.github.io
+       Destination: /Users/liufangting/my_git/echo-music.github.io/_site
  Incremental build: disabled. Enable with --incremental
       Generating...
    GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
     Liquid Warning: Liquid syntax error (line 2): Expected dotdot but found pipe in "{{(site.github.public_repositories | sort: 'stargazers_count') | reverse }}" in pages/open-source.md
                     done in 3.437 seconds.
- Auto-regeneration: enabled for '/Users/baxi/my_git/echo-music.github.io'
+ Auto-regeneration: enabled for '/Users/liufangting/my_git/echo-music.github.io'
     Server address: http://127.0.0.1:4000
   Server running... press ctrl-c to stop.
 ```

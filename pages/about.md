@@ -1,14 +1,14 @@
 ---
 layout: page
-title: About
+title: About echo🎶
 description: 程序人生
-keywords: Fangting Liu, echo-music,echo🎶, 刘方亭的博客
+keywords: Fangting Liu, echo-music,echomusic, echo🎶的博客
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-大家好，我是刘方亭，目前在研究微服务、Docker、K8s、分享开源技术。
+大家好，我是echo🎶，目前在研究微服务、Docker、K8s、分享开源技术。
 
 坚信熟能生巧，技术改变人生。
 

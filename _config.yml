@@ -4,10 +4,10 @@
 baseurl:
 #url: https://echo-music.github.io/
 date_format: "ordinal"
-title: 刘方亭.blog
+title: echo🎶.blog
 subtitle: "发粪💩涂墙💪--------"
-description: "刘方亭的个人博客"
-keywords: echo_music, Fangting Liu,  echo-music ,刘方亭的个人博客
+description: "echo🎶的个人博客"
+keywords: echo_music, Fangting Liu,  echo-music ,echo🎶的个人博客
 encoding: "utf-8"
 side_bar_repo_limit: 5
 repository: echo-music/echo-music.github.io

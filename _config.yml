@@ -4,10 +4,10 @@
 baseurl:
 #url: https://echo-music.github.io/
 date_format: "ordinal"
-title: echo🎶.blog
-subtitle: "水滴石穿--------😊"
-description: "echo🎶的个人博客"
-keywords: echo_music, Fangting Liu,  echo-music ,echo🎶的个人博客
+title: 亭哥的.博客
+subtitle: "水滴石穿"
+description: "亭哥的个人博客"
+keywords: echo_music, Fangting Liu,  echo-music ,echo🎶,亭哥的个人博客
 encoding: "utf-8"
 side_bar_repo_limit: 5
 repository: echo-music/echo-music.github.io

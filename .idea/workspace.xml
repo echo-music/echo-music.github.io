@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de06bc85-c4d9-45e8-9714-00ff1564d4c2" name="Default" comment="" />
+    <list default="true" id="de06bc85-c4d9-45e8-9714-00ff1564d4c2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/_posts/2019-08-05- GO后端面试题.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-08-05- GO后端面试题.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-06-04- react-express-mongodb.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-06-04- react-express-mongodb.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-07-20- 自动切换node版本 copy.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-07-20- 自动切换node版本 copy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-07-28- Mac电脑安装Homebrew和oh-my-zsh copy.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-07-28- Mac电脑安装Homebrew和oh-my-zsh copy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2023-03-17- docker小白的学习手记.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-03-17- docker小白的学习手记.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

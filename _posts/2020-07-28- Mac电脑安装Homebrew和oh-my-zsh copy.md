@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mac电脑安装Homebrew和oh-my-zsh
-categories: Mac,Homebrew,oh-my-zsh
+categories: Mac
 description: Mac,Homebrew oh-my-zsh
 keywords: Mac,Homebrew oh-my-zsh
 ---

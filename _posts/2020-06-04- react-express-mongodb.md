@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  react-express-mongodb
-categories: react,express,redux,mongodb
+categories: js
 description: react-express-mongodb 搭建聊天
 keywords: react
 ---

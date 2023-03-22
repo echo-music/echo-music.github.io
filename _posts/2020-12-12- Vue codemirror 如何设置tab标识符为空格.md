@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Vue codemirror 如何设置tab标识符为空格
-categories: codemirror
-description: codemirror
+title: Vue  如何设置tab标识符为空格
+categories: js
+description: js
 keywords: codemirror,iOS,safari,回弹效果,橡皮筋效果
 ---
 

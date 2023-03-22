@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mac 中安装、使用 git 和 Sourcetree
-categories: Mac, git, Sourcetree
+categories: git
 description: Mac 中安装、使用 git 和 Sourcetree
 keywords: Mac, git, Sourcetree
 ---

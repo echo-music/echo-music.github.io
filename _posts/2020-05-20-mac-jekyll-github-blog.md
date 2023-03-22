@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mac下使用Jekyll和github搭建个人博客
-categories: Mac, Jekyll, Github, blog
+categories: other
 description: Mac下使用Jekyll和github搭建个人博客方法
 keywords: Mac, Jekyll, Github
 ---

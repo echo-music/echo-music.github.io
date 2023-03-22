@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mac && iOS safari 屏幕滚动橡皮筋效果取消已经无法滚动问题
-categories: Mac
+categories: mac
 description: Mac,iOS
 keywords: Mac,iOS,safari,回弹效果,橡皮筋效果
 ---

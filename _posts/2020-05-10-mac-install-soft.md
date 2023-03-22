@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 在 Mac 上安装软件
-categories: Mac
+categories: mac
 description: Mac 安装软件的方法
 keywords: Mac, Mac OSX, Homebrew
 ---

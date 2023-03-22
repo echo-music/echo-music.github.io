@@ -94,14 +94,14 @@ gitment:
     owner: echo-music
     repo: echo-music.github.io
     oauth:
-        client_id: f1b37e802c634863604a
-        client_secret: 3185e464e62d9eab0a432c06daebfa3a6af7e874
+        client_id: 8b219ee2ae6e026b9aef
+        client_secret: 058a84a52fe65c753cc894495e5f7fe2e398cd17
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: echo-music
     repo: echo-music.github.io
-    clientID: f1b37e802c634863604a
-    clientSecret: 3185e464e62d9eab0a432c06daebfa3a6af7e874
+    clientID: 8b219ee2ae6e026b9aef
+    clientSecret: 058a84a52fe65c753cc894495e5f7fe2e398cd17
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 

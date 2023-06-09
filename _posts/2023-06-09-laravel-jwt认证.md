@@ -185,7 +185,7 @@ Route::prefix('auth')->group(function () {
 });
 ```
 
-## 8、创建认真控制器 AuthController
+## 8、创建认证控制器 AuthController
 
 你可以手动或运行artisan命令创建AuthController：
 

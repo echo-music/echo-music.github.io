@@ -63,13 +63,15 @@ composer require tymon/jwt-auth
 ```
 
 ## 3、生成配置文件 jwt.php
-生成jwt的配置文件
+执行以下命令生成 jwt 的配置文件：
+
 ```
 php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
 ```
 
 ## 4、生成jwt签名密钥,生成的密钥会放在.env配置文件中
-生成token的时候需要用到该密钥
+生成 token 的时候需要用到该密钥生成签名。
+
 ```
 php artisan jwt:secret
 ```
@@ -77,7 +79,6 @@ php artisan jwt:secret
 This will update your `.env` file with something like `JWT_SECRET=foobar`
 
 ## 5、更新用户模型（user.php）app/models
-有认证那肯定的有用户账号啦，用来创建用户账号
 首先，您需要在User模型上实现Tymon\JWTAuth\Contracts\JWTSubject契约，这需要实现getJWTIdentifier（）和getJWTCustomClaims（）这两个方法。
 
 ```
@@ -150,7 +151,8 @@ class User extends Authenticatable implements JWTSubject
 
 ## 6、配置你的身份守护
 
-在config/auth.php文件中，您需要进行一些更改，以配置Laravel使用jwt保护来为应用程序身份验证
+在config/auth.php文件中，您需要进行一些更改，以配置Laravel使用jwt保护来为应用程序身份验证。
+就是说后面的授权认证就是按照你下面配置的走了，如 jwt 认证。
 
 ```
 'defaults' => [
@@ -169,7 +171,6 @@ class User extends Authenticatable implements JWTSubject
 ```
 
 在这里，我们告诉api卫士使用jwt驱动程序，并将api卫士设置为默认值。
-
 我们现在可以使用Laravel的内置Auth系统，由jwt-Auth在幕后完成工作
 
 ## 7、添加基本的身份路由
@@ -189,7 +190,6 @@ Route::prefix('auth')->group(function () {
 ## 8、创建认证控制器 AuthController
 
 你可以手动或运行artisan命令创建AuthController：
-
 ```
 php artisan make:controller AuthController
 ```

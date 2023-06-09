@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de06bc85-c4d9-45e8-9714-00ff1564d4c2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2023-06-09-laravel-jwt认证.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2023-06-09-laravel-jwt认证.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-06-09-laravel-jwt认证.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -400,7 +400,7 @@
       <workItem from="1627006240656" duration="4097000" />
       <workItem from="1627016923546" duration="627000" />
       <workItem from="1627023514323" duration="3032000" />
-      <workItem from="1686315405935" duration="671000" />
+      <workItem from="1686315405935" duration="1884000" />
     </task>
     <servers />
   </component>

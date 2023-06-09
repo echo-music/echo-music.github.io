@@ -195,19 +195,17 @@ php artisan make:controller AuthController
 
 您现在应该能够POST到登录端点（例如。http://example.dev/auth/login)使用一些有效凭据，然后看到如下响应：
 
-![](file:///Users/liufangting/Library/Application%20Support/marktext/images/2023-06-09-11-09-53-image.png?msec=1686315411736)
+[![pCEYMi6.png](https://s1.ax1x.com/2023/06/09/pCEYMi6.png)](https://imgse.com/i/pCEYMi6)
 
 不好意思让你失望了,jwt库下面没有users表,别说表了，库也没有呀，那接下来我们开始新建库和表
 
-![](file:///Users/liufangting/Library/Application%20Support/marktext/images/2023-06-09-11-14-33-image.png?msec=1686315411650)
-
+[![pCEYGsH.png](https://s1.ax1x.com/2023/06/09/pCEYGsH.png)](https://imgse.com/i/pCEYGsH)
 生成用户账号表
 
 ```
 php artisan migrate
 ```
-
-![](file:///Users/liufangting/Library/Application%20Support/marktext/images/2023-06-09-11-17-48-image.png?msec=1686315411668)
+[![pCEYteA.png](https://s1.ax1x.com/2023/06/09/pCEYteA.png)](https://imgse.com/i/pCEYteA)
 
 然后进入tinker
 
@@ -222,15 +220,15 @@ php artisan tinker
 > User::create(['name' => 'Test','email' =>'php_fangting@126.com','password' => bcrypt('123456')]);
 ```
 
-![](file:///Users/liufangting/Library/Application%20Support/marktext/images/2023-06-09-11-22-46-image.png?msec=1686315411671)
+[![pCEYDSS.png](https://s1.ax1x.com/2023/06/09/pCEYDSS.png)](https://imgse.com/i/pCEYDSS)
 
 然后使用账号登陆获取令牌
 
-![](file:///Users/liufangting/Library/Application%20Support/marktext/images/2023-06-09-11-31-39-image.png?msec=1686315411717)
+[![pCEY2oq.png](https://s1.ax1x.com/2023/06/09/pCEY2oq.png)](https://imgse.com/i/pCEY2oq)
 
 刷新token
 
-![](file:///Users/liufangting/Library/Application%20Support/marktext/images/2023-06-09-11-50-00-image.png?msec=1686315411781)
+[![pCEYhWT.png](https://s1.ax1x.com/2023/06/09/pCEYhWT.png)](https://imgse.com/i/pCEYhWT)
 
 报错了，因为我们是api接口，返回这种html对前端不太友好！应该返回json
 
@@ -266,7 +264,7 @@ php artisan tinker
 
 我们再一次请求刷新token
 
-![](file:///Users/liufangting/Library/Application%20Support/marktext/images/2023-06-09-11-52-48-image.png?msec=1686315411697)
+[![pCEYIlF.png](https://s1.ax1x.com/2023/06/09/pCEYIlF.png)](https://imgse.com/i/pCEYIlF)
 
 The token has been blacklisted" 说明这个token已经不可用了。我们需要重新登陆
 
@@ -338,7 +336,7 @@ postman使用技巧
 
 每次请求都要携带token,所以我们在一个地方设置全局token并保存后面，每次请求都会自动携带
 
-![](file:///Users/liufangting/Library/Application%20Support/marktext/images/2023-06-09-12-02-48-image.png?msec=1686315411717)
+[![pCEYTOJ.png](https://s1.ax1x.com/2023/06/09/pCEYTOJ.png)](https://imgse.com/i/pCEYTOJ)
 
 参考资料
 

@@ -341,6 +341,6 @@ postman使用技巧
 
 参考资料
 
-https://jwt-auth.readthedocs.io/en/develop/laravel-installation/
+[jwt官方文档](https://jwt-auth.readthedocs.io/en/develop/laravel-installation/)
 
 [Laravel5.5使用jwt完成token认证 - 车车大人 - 博客园](https://www.cnblogs.com/ccdr/p/11721503.html)

@@ -47,7 +47,7 @@ PHP7.3+
 ```
 
 ## 1、安装jwt包
-认证，获取token，刷线token等功能，tymon/jwt-auth 这个包，人家都给你封装好了，直接装上去用就行了。
+认证，获取 token，刷新 token 等功能，tymon/jwt-auth 这个包，人家都给你封装好了，直接装上去用就行了。
 
 ```
 composer require tymon/jwt-auth

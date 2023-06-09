@@ -201,7 +201,7 @@ php artisan make:controller AuthController
 不好意思让你失望了,jwt库下面没有users表,别说表了，库也没有呀，那接下来我们开始新建库和表
 
 [![pCEYGsH.png](https://s1.ax1x.com/2023/06/09/pCEYGsH.png)](https://imgse.com/i/pCEYGsH)
-生成用户账号表
+生成用户账号表(我这里使用laravel默认的用户表，你当然可以使用自己新建的。)
 
 ```
 php artisan migrate

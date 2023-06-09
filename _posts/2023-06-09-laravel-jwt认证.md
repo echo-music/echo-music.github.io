@@ -47,13 +47,14 @@ PHP7.3+
 ```
 
 ## 1、安装jwt包
+认证，获取token，刷线token等功能，tymon/jwt-auth 这个包，人家都给你封装好了，直接装上去用就行了。
 
 ```
 composer require tymon/jwt-auth
 ```
 
 ## 2、在 config/app.php 文件 providers数组中 添加服务提供商，
-
+主要是用来jwt配置文件
 ```
  'providers' =>[
      ...
@@ -62,13 +63,13 @@ composer require tymon/jwt-auth
 ```
 
 ## 3、生成配置文件 jwt.php
-
+生成jwt的配置文件
 ```
 php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
 ```
 
 ## 4、生成jwt签名密钥,生成的密钥会放在.env配置文件中
-
+生成token的时候需要用到该密钥
 ```
 php artisan jwt:secret
 ```
@@ -76,7 +77,7 @@ php artisan jwt:secret
 This will update your `.env` file with something like `JWT_SECRET=foobar`
 
 ## 5、更新用户模型（user.php）app/models
-
+有认证那肯定的有用户账号啦，用来创建用户账号
 首先，您需要在User模型上实现Tymon\JWTAuth\Contracts\JWTSubject契约，这需要实现getJWTIdentifier（）和getJWTCustomClaims（）这两个方法。
 
 ```

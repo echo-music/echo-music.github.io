@@ -54,7 +54,7 @@ composer require tymon/jwt-auth
 ```
 
 ## 2、在 config/app.php 文件 providers数组中 添加服务提供商，
-主要是用来jwt配置文件
+后面第三步需要用它来生成 jwt 配置文件
 ```
  'providers' =>[
      ...

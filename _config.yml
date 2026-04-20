@@ -63,6 +63,8 @@ lsi: false
 quiet: false
 excerpt_separator: "\n\n"
 permalink: /:year/:month/:day/:title/
+future: true
+timezone: Asia/Shanghai
 gems:
     - jekyll-github-metadata
     - rouge

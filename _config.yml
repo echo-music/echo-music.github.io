@@ -65,7 +65,7 @@ excerpt_separator: "\n\n"
 permalink: /:year/:month/:day/:title/
 future: true
 timezone: Asia/Shanghai
-gems:
+plugins:
     - jekyll-github-metadata
     - rouge
 #     - jekyll-html-pipeline

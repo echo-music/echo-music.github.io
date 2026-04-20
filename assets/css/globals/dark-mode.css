@@ -1,0 +1,245 @@
+/* Dark Mode Styles */
+
+/* 切换按钮样式 */
+.dark-mode-toggle {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #4183c4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.dark-mode-toggle:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.dark-mode-toggle .octicon {
+    width: 24px;
+    height: 24px;
+}
+
+/* Dark Mode 基础样式 */
+body.dark-mode {
+    background-color: #0d1117;
+    color: #c9d1d9;
+}
+
+body.dark-mode .site-header {
+    background-color: #161b22;
+    border-bottom-color: #30363d;
+}
+
+body.dark-mode .site-header h1 a {
+    color: #c9d1d9;
+}
+
+body.dark-mode .site-header-nav-item {
+    color: #8b949e;
+}
+
+body.dark-mode .site-header-nav-item:hover {
+    color: #c9d1d9;
+}
+
+body.dark-mode .site-header-nav-item.selected {
+    color: #fff;
+}
+
+/* 文章内容 */
+body.dark-mode .markdown-body {
+    color: #c9d1d9;
+}
+
+body.dark-mode .markdown-body h1,
+body.dark-mode .markdown-body h2,
+body.dark-mode .markdown-body h3,
+body.dark-mode .markdown-body h4,
+body.dark-mode .markdown-body h5,
+body.dark-mode .markdown-body h6 {
+    color: #c9d1d9;
+    border-bottom-color: #30363d;
+}
+
+body.dark-mode .markdown-body a {
+    color: #58a6ff;
+}
+
+body.dark-mode .markdown-body code {
+    background-color: rgba(110, 118, 129, 0.4);
+    color: #c9d1d9;
+}
+
+body.dark-mode .markdown-body pre {
+    background-color: #161b22;
+    border-color: #30363d;
+}
+
+body.dark-mode .markdown-body blockquote {
+    border-left-color: #3b434b;
+    color: #8b949e;
+}
+
+body.dark-mode .markdown-body table th,
+body.dark-mode .markdown-body table td {
+    border-color: #30363d;
+}
+
+body.dark-mode .markdown-body table tr {
+    background-color: #0d1117;
+    border-top-color: #30363d;
+}
+
+body.dark-mode .markdown-body table tr:nth-child(2n) {
+    background-color: #161b22;
+}
+
+body.dark-mode .markdown-body img {
+    background-color: #0d1117;
+}
+
+body.dark-mode .markdown-body hr {
+    background-color: #30363d;
+}
+
+/* 列表页 */
+body.dark-mode .repo-list-item {
+    border-bottom-color: #30363d;
+}
+
+body.dark-mode .repo-list-name a {
+    color: #58a6ff;
+}
+
+body.dark-mode .repo-list-description {
+    color: #8b949e;
+}
+
+body.dark-mode .repo-list-meta {
+    color: #8b949e;
+}
+
+body.dark-mode .repo-list-meta a {
+    color: #8b949e;
+}
+
+/* 分页 */
+body.dark-mode .btn-outline {
+    background-color: #21262d;
+    border-color: #30363d;
+    color: #c9d1d9;
+}
+
+body.dark-mode .btn-outline:hover {
+    background-color: #30363d;
+    border-color: #8b949e;
+}
+
+body.dark-mode .btn-outline.active {
+    background-color: #1f6feb;
+    border-color: #388bfd;
+    color: #fff;
+}
+
+body.dark-mode .btn-outline:disabled {
+    background-color: #21262d;
+    border-color: #30363d;
+    color: #484f58;
+}
+
+/* 页脚 */
+body.dark-mode .site-footer {
+    border-top-color: #30363d;
+    color: #8b949e;
+}
+
+body.dark-mode .site-footer a {
+    color: #8b949e;
+}
+
+/* 侧边栏 */
+body.dark-mode .sidebar-module {
+    background-color: #161b22;
+    border-color: #30363d;
+}
+
+body.dark-mode .sidebar-module h3 {
+    border-bottom-color: #30363d;
+    color: #c9d1d9;
+}
+
+/* 搜索 */
+body.dark-mode .search-input {
+    background-color: #0d1117;
+    border-color: #30363d;
+    color: #c9d1d9;
+}
+
+body.dark-mode .search-results {
+    background-color: #161b22;
+    border-color: #30363d;
+}
+
+body.dark-mode .search-results a {
+    color: #c9d1d9;
+    border-bottom-color: #30363d;
+}
+
+body.dark-mode .search-results a:hover {
+    background-color: #1f6feb;
+    color: #fff;
+}
+
+/* 首页 Banner */
+body.dark-mode.home .banner,
+body.dark-mode.home .site-header {
+    background: #1f6feb;
+}
+
+/* 代码高亮 - 使用暗色主题 */
+body.dark-mode pre[class*="language-"] {
+    background: #161b22 !important;
+}
+
+body.dark-mode code[class*="language-"] {
+    color: #c9d1d9;
+    text-shadow: none;
+}
+
+/* 分类页面 */
+body.dark-mode .categories-list a {
+    color: #58a6ff;
+}
+
+body.dark-mode .categories-list .category-item {
+    background-color: #161b22;
+    border-color: #30363d;
+}
+
+/* 移动端菜单按钮 */
+body.dark-mode .collapsed .icon-bar {
+    background-color: #c9d1d9;
+}
+
+/* 响应式 */
+@media (max-width: 50em) {
+    .dark-mode-toggle {
+        bottom: 20px;
+        right: 20px;
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    }
+}
